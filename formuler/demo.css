@@ -1,0 +1,56 @@
+body{
+background-color: teal;
+
+
+
+}
+*{
+
+  box-sizing:border-box;
+}
+.container{
+margin:auto;
+width:60%;
+padding: 20px;
+background-color:rgb(139, 200, 224);
+box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.7) ;
+
+
+
+}
+input[type='text'],
+input[type='password']{
+
+width: 100%;
+padding: 10px;
+margin: 10px 10px 22px 0;
+display: inline-block;
+border:none;
+background:rgb(178, 197, 225);
+
+
+
+}
+
+input[type='text']:focus,
+input[type='password']:focus{
+
+background-color:azure;
+
+
+}
+.regi{
+background-color: teal;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin: auto;
+opacity: 0.8;
+font-size: 30px;
+
+
+
+  
+}
